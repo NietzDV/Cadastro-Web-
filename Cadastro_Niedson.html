@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body style=" text-align: center; width: 60%; margin: auto;">
+    <form action="Cadastro" method="post">
+      <fieldset >
+        <section >
+          <article>
+            <h1 style="text-align: center">Cadastro</h1>
+            <div>
+              <p>Nome: <input name="nome" type="text" /></p>
+            </div>
+            <div>
+              <p>CPF: <input name="CPF" type="number" /></p>
+            </div>
+            <p>Email: <input name="Email" type="email" /></p>
+            <div>
+              <p>Nascimento: <input name="Nascimento" type="date" /></p>
+            </div>
+            <p>IDADE:<input name="IDADE" type="range" min="12" max="100" /></p>
+            <div>
+              
+                <span>Opinião:</span>
+                <textarea
+                  name="Opinião"
+                  placeholder="Sua opinião aqui"
+                  rows="10"
+                  cols="30"
+                ></textarea>
+              
+            </div>
+            <div style="text-align: center">
+              <button type="submit">Terminar</button>
+              <button type="reset">Cancelar</button>
+            </div>
+          </article>
+        </section>
+      </fieldset>
+    </form>
+  </body>
+</html>
